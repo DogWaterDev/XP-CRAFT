@@ -1,0 +1,5 @@
+name: EventListeners
+version: '${project.version}'
+main: me.duesslo.eventlisteners.EventListeners
+api-version: '1.20'
+authors: [Duesslo aka. DogWaterDev]
