@@ -1,0 +1,37 @@
+name: EventListeners
+version: '${project.version}'
+main: me.duesslo.eventlisteners.EventListeners
+api-version: '1.20'
+authors: [Duesslo aka. DogWaterDev]
+commands:
+  spawn:
+    description: Teleport the current entity to the Spawn Island
+    usage: /<command>
+    aliases: [spawntp,tpspawn]
+  joke:
+    description: tells a joke
+    usage: /<command>
+    aliases: [telljoke]
+  jail:
+    description: jails specified user in bedrock cage
+    usage: /<command> <user>
+    permission: duesslo.jail
+    permission-message: You do not have permission to run this command. Die!
+  duesslo:
+    description: you'll see...
+    usage: /<command>
+  discord:
+    description: shows you the discord link
+    usage: /<command>
+    aliases: [dc]
+  tutorial:
+    description: teleports you to the tutorial world
+    usage: /<command>
+  afk:
+    description: teleports you to a safe place for AFKing
+    usage: /<command>
+
+permissions:
+  duesslo.jail:
+    description: allows a player to jail and de-op another
+    default: op
